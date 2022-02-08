@@ -1,12 +1,12 @@
 {
-    "extends": "react-app",
-    "rules": {
-        "no-debugger": "warn",
-        "prettier/prettier":[
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-        ]
-    }
+  "extends": "react-app",
+  "rules": {
+    "no-debugger": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }

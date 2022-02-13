@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA\\QAndA.csproj": {}
+    "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA.API\\QAndA.API.csproj": {}
   },
   "projects": {
-    "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA\\QAndA.csproj": {
+    "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA.API\\QAndA.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA\\QAndA.csproj",
-        "projectName": "QAndA",
-        "projectPath": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA\\QAndA.csproj",
+        "projectUniqueName": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA.API\\QAndA.API.csproj",
+        "projectName": "QAndA.API",
+        "projectPath": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA.API\\QAndA.API.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA\\obj\\",
+        "outputPath": "D:\\Proyects\\React\\NetCoreAndReact\\QandA\\backend\\QAndA.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VisualStudioShared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

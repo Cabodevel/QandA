@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAndA", "QAndA.csproj", "{E1A07FF7-919B-4691-A0AF-A3ACADB95C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAndA.API", "..\QAndA.API\QAndA.API.csproj", "{9CA15456-73E2-4B98-BC3E-52DB5EC19E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1A07FF7-919B-4691-A0AF-A3ACADB95C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1A07FF7-919B-4691-A0AF-A3ACADB95C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1A07FF7-919B-4691-A0AF-A3ACADB95C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1A07FF7-919B-4691-A0AF-A3ACADB95C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA15456-73E2-4B98-BC3E-52DB5EC19E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA15456-73E2-4B98-BC3E-52DB5EC19E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA15456-73E2-4B98-BC3E-52DB5EC19E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA15456-73E2-4B98-BC3E-52DB5EC19E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E8021327-190D-46B7-8141-AB7DB860DA3D}
+		SolutionGuid = {467BF229-4875-400E-88EB-2DF48570E266}
 	EndGlobalSection
 EndGlobal

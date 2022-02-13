@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "603fe7c0-ee02-4c1b-a7a7-5bc3a179cb59": {
+      "ProjectGuid": "603fe7c0-ee02-4c1b-a7a7-5bc3a179cb59",
+      "DisplayName": "QAndA",
+      "ColorIndex": 0
+    },
+    "9ca15456-73e2-4b98-bc3e-52db5ec19e92": {
+      "ProjectGuid": "9ca15456-73e2-4b98-bc3e-52db5ec19e92",
+      "DisplayName": "QAndA.API",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

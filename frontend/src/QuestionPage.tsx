@@ -16,15 +16,20 @@ import { useForm } from 'react-hook-form';
 import { useState, useEffect, Fragment } from 'react';
 import { Page } from './Page';
 import { useParams } from 'react-router-dom';
-import { QuestionData, getQuestion, postAnswer } from './QuestionsData';
+import { getQuestion, postAnswer } from './QuestionsData';
 import { AnswerList } from './AnswerList';
+
+import { useSelector, useDispatch } from 'react-redux';
+import { AppState, gettingQuestionAction, gotQuestionAction } from './Store';
 
 type FormData = {
   content: string;
 };
 
 export const QuestionPage = () => {
-  const [question, setQuestion] = useState<QuestionData | null>(null);
+  const dispatch = useDispatch();
+  const question = useSelector((state: AppState) => state.questions.viewing);
+
   const { questionId } = useParams();
   const { register, handleSubmit, formState } = useForm<FormData>({
     mode: 'onBlur',
@@ -44,13 +49,15 @@ export const QuestionPage = () => {
 
   useEffect(() => {
     const doGetQuestion = async (questionId: number) => {
+      dispatch(gettingQuestionAction());
       const foundQuestion = await getQuestion(questionId);
-      setQuestion(foundQuestion);
+      dispatch(gotQuestionAction(foundQuestion));
     };
 
     if (questionId) {
       doGetQuestion(Number(questionId));
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionId]);
 
   return (
